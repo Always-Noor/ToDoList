@@ -47,7 +47,7 @@ struct ContentView: View {
         } //closes list
         
         if showNewTask {
-            NewToDoView()
+            NewToDoView(toDoItem: ToDoItem(title: "", isImportant: false))
         }
         
     } // closes Body
